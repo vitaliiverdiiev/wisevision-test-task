@@ -1,0 +1,15 @@
+export enum IconsEnum {
+  PLUS = 'plus',
+  DOT_SIX = 'dot-six',
+  STATISTICS = 'statistics',
+  CHANNELS = 'channels',
+  WORKSPACE = 'workspace',
+  LANDINGS = 'landings',
+  AUTOMATION = 'automation',
+  MESSENGER = 'messenger',
+  CUSTOMERS = 'customers',
+  TEAMS = 'teams',
+  SETTINGS = 'settings',
+  HELP = 'help',
+  CLOSE = 'close',
+}

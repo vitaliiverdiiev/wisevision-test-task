@@ -1,0 +1,1 @@
+export { GetBonus } from './GetBonus';

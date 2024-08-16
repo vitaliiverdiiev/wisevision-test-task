@@ -1,0 +1,18 @@
+.sidebar {
+  &Section {
+    margin-top: 40px;
+
+    &Title {
+      margin-bottom: 16px;
+      font-size: 16px;
+      line-height: 20px;
+      color: #adb1b8;
+    }
+
+    &Items {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+}

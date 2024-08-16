@@ -1,0 +1,41 @@
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+
+  &:hover {
+    .menuItemIcon {
+      background-color: #eeeeee;
+      outline: 1px solid #eeeeee;
+    }
+    .menuItemLabel {
+      color: black;
+    }
+  }
+
+  &Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 8px;
+    border: 4px solid white;
+    background-color: #f1f3f5;
+    outline: 1px solid #e5e7eb;
+
+    & > svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &Label {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #4b5563;
+  }
+}

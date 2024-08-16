@@ -1,0 +1,48 @@
+.main {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: 100%;
+  height: calc(100% - var(--header-height));
+  margin-top: var(--header-height);
+
+  &.isIcon {
+    grid-template-columns: 81px 1fr;
+  }
+}
+
+.sidebar {
+  position: relative;
+  padding: 24px 20px;
+  border-right: 1px solid var(--gray-color);
+  background-color: var(--light-color);
+
+  &Toggler {
+    position: absolute;
+    top: 310px;
+    right: -12px;
+    min-width: fit-content;
+    background-color: var(--gray-color);
+    border: none;
+
+    &:hover {
+      background-color: var(--light-color);
+    }
+  }
+}
+
+.section {
+  padding: 24px 20px;
+  background-color: var(--section-bg);
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0 24px;
+  background-color: #d1d5db;
+}
